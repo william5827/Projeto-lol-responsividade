@@ -7,6 +7,7 @@ body{
 
 .header{
     width: 100%;
+    /*position: fixed;*/
 }
 
 .header .container{
@@ -84,21 +85,57 @@ body{
 }
 
 .h1_invocador{
-    font-size: 50px;
-    margin-top: 10%;
+    font-size: 60px;
+    margin-top: 15%;
     color: white;
 }
 
 .ahri_text{
-    width: 90%;
-    height: 60%;
-    background-color: white;
+    width: 100%;
+    height: 40%;
+    border: 1px solid #f3bd58;
+    background-color: rgba(0, 0, 0, 0.445);
     border-radius: 3px;
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .p_text_ahri{
-    font-size: 30px;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.p_text_ahri p{
+    margin: 0;
+    font-size: 22px;
+    color: white;
+}
+
+.title_ahri{
+    width: 90%;
+    text-align: left;
+    margin-left: 33px;
+}
+
+.title_ahri p{
+    margin: 0;
+    font-size: 23px;
+    color: #f3bd58;
+}
+
+.img_icon_ahri{
+    width: 60px;
+    height: 60px;
+}
+
+.img_icon_ahri img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #f3bd58;
+    border-radius: 60%;
 }
